@@ -1,6 +1,16 @@
 const resultado = window.document.querySelector(".resultado");
 const botoes = window.document.querySelectorAll(".botao");
 
+document.addEventListener('DOMContentLoaded', function () {
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (prefersDarkScheme) {
+        document.body.classList.add("dark-theme");
+    } else {
+        document.body.classList.add("light-theme");
+    }
+});
+
 for (let index = 0; index < botoes.length; index++) {
 
     botoes[index].addEventListener('click', (e) => {
