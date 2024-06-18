@@ -130,3 +130,33 @@ html {
     background-color: #68b31a;
     color: white;
 }
+
+.dark-theme {
+    background-color: #111;
+    color: #f5f5f5;
+}
+
+.dark-theme .calculadora {
+    background-color: #333;
+    border: 5px solid #111;
+}
+
+.dark-theme .botao {
+    background-color: #555;
+    color: #f5f5f5;
+}
+
+.dark-theme .limpar-btn button {
+    background: transparent;
+}
+
+.dark-theme .parentesisBtn1,
+.dark-theme .parentesisBtn2 {
+    background-color: #555;
+    color: #68b31a;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
