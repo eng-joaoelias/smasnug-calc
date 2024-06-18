@@ -1,4 +1,4 @@
-#Calculadora Smasnug
+# Calculadora Smasnug
 
 Este arquivo fornece informações sobre a Calculadora Smasnug, uma calculadora básica construída com HTML, CSS e JavaScript.
 
