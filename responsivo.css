@@ -33,6 +33,16 @@
         width: 83px;
         height: 83px;
     }
+
+    .dark-theme {
+        background-color: #000;
+    }
+
+    .dark-theme .calculadora {
+        background-color: #000;
+        background: #000;
+        border: none;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 1024px) and (orientation: portrait){
